@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanaryFly</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><a href="index.html"><h3>Página de Inicio</h3></a></header>
+    <img src="Imgs/CnFl.png" alt="CanaryFly" style="width:350px; height: 300px; border: 1px solid black; margin: 5px;">
+    <div class="contenedor">
+        <div class="informacion">
+            <h2>Información de Vuelo</h2>
+            <p>Aquí aparecerán detalles adicionales más adelante.</p>
+            <button onclick="avion.comprar_asientos()">Comprar asientos</button>
+        </div>
+
+        <div class="avion">
+            <div class="vip"></div>
+            <div class="normal"></div>
+            <div class="economico"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        const avion = new Avion(3, 30, "CanaryFly", 25, 69);
+        avion.generar_asientos();
+    </script>
+</body>
+</html>

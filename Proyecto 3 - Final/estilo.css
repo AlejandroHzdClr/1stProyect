@@ -1,0 +1,75 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.informacion {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+.vip {
+    display: grid;
+    grid-template-columns: repeat(3, 25px);
+    grid-template-rows: repeat(3, 25px);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.celda {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+.celda:hover {
+    cursor: pointer;
+}
+
+.avion {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: max-content;
+}
+
+.normal {
+    display: grid;
+    grid-template-columns: repeat(3, 25px);
+    gap: 10px;
+}
+
+.vip_asiento {
+    background-color: rgb(206, 142, 83);
+}
+
+.normal_asiento {
+    background-color: rgb(129, 211, 21);
+}
+
+.economico_asiento {
+    background-color: rgb(0, 153, 255);
+}
+
+.reservado {
+    background-color: red;
+}
+
+.economico {
+    display: grid;
+    grid-template-columns: repeat(3, 25px);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.medio_reservado {
+    background-color: purple;
+}

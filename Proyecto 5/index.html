@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Archivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        Crear: <input type="text" id="creador">
+        Tipo de Elemento: 
+        <select id="tipo_elemento">
+            <option value="carpeta">Carpeta</option>
+            <option value="txt">Documento de Texto</option>
+            <option value="mp3">Archivo de Audio</option>
+            <option value="mp4">Archivo de Video</option>
+            <option value="png">Imagen</option>
+        </select>
+    </div>
+    <input type="button" id="crear" value="Crear">
+    <div class="directorios"></div>
+    <script src="script.js"></script>
+</body>
+</html>
