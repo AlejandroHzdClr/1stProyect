@@ -1,0 +1,11 @@
+img{
+    width: 10%;
+}
+.coche{
+    display: flex;
+    justify-content: space-around;
+}
+.rlj_smfr{
+    display: flex;
+    justify-content: space-between;
+}
