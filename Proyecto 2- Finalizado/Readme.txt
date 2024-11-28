@@ -12,7 +12,7 @@ Persistent Reservations: Reserved seats remain saved when the user returns to th
 
 Front-End: HTML, CSS, JavaScript
 Logic Handling: JavaScript for seat selection and status updates
-Data Storage: LocalStorage to retain reservation details across sessions (if implemented)
+
 💡 Why This Project?
 This project showcases my ability to create interactive and dynamic web applications. It highlights my skills in managing user input, manipulating DOM elements, and delivering a seamless user experience. Additionally, it reflects my understanding of practical use cases in real-world applications.
 
