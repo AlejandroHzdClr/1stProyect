@@ -10,7 +10,8 @@ Minimalist Interface: A clean and straightforward design focused on the core fun
 🛠 Technologies Used:
 
 Front-End: HTML, CSS, JavaScript
-Logic Handling: JavaScript for event handling and DOM manipulation to manage seat reservations
+Logic Handling: JavaScript for event handling and DOM manipulation to manage seat reservations and with localStorage to save the seats.
+
 💡 Why This Project?
 This project demonstrates how user interaction can be seamlessly integrated into a web application with simple yet effective design and functionality. It highlights my skills in JavaScript event handling, dynamic content updates, and creating an engaging user experience.
 
