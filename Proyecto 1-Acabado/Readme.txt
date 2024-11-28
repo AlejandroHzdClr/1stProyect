@@ -16,6 +16,4 @@ Responsive Design: CSS for adapting layouts to various screen sizes
 This project demonstrates how user input can drive creativity and functionality in web applications. It highlights my ability to build interactive experiences and handle data to create meaningful and engaging content.
 
 📂 Explore the Code:
-Visit the GitHub repository to view the code and try the application: [GitHub Link].
-
 Feel free to share your thoughts or suggest improvements—collaboration is always welcome! 🚀
